@@ -1,0 +1,74 @@
+
+/* importing all the fonts */
+@font-face {
+    font-family: 'BobbyJonesSoft';
+    src: url("bjSoft.otf");
+}
+@font-face {
+    font-family: 'BobbyJonesOutline';
+    src: url("bjSoftOutline.otf");
+}
+
+body {
+    cursor: url('mecursor2.png'), auto;
+}
+
+
+header {
+    position: sticky;
+    background-color: #FBF7F4;
+    padding: 15px;
+    padding-left: 30px;
+    display: flex;
+    font-family: "BobbyJonesSoft";
+    font-size: 20px;
+    top: 0;
+}
+
+.logo {
+    flex: 5%;
+}
+.linksNav {
+    padding: 15px 0;
+}
+.page {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+/* footer */
+footer {
+    padding: 30px;
+    background-color: #FBF7F4;
+
+    display: flex;
+
+    color: #A1683A;
+}
+
+.createdBy {
+    flex: 50%;
+    font-family: "BobbyJonesOutline";
+    font-size: 30px;
+}
+
+ul {
+    flex: 50%;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+
+    font-size: 30px;
+
+    font-family: "BobbyJonesSoft";
+    margin: auto;
+}
+
+li {
+    flex: 20%;
+    font-size: 60%;
+    padding-left: 20px;
+    text-align: center;
+}
+
