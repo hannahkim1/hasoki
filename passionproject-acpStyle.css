@@ -1,0 +1,110 @@
+/* importing all the fonts */
+@font-face {
+    font-family: 'BobbyJonesSoft';
+    src: url("bjSoft.otf");
+}
+@font-face {
+    font-family: 'BobbyJonesOutline';
+    src: url("bjSoftOutline.otf");
+}
+
+/* need */
+.all {
+    font-family: "BobbyJonesSoft";
+}
+
+.background {
+    background-color: #EED2CC;
+    padding: 30px;
+}
+.backButton {
+    background-color: #E8998D;
+    text-align: center;
+    font-family: "BobbyJonesSoft";
+    
+    font-size: 15px;
+
+    width: 10%;
+    padding: 5px;
+
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+/* -------------------------------------------------- */
+
+/* top section */
+.introductionSection {
+    background-color: #EED2CC;
+    padding: 40px;
+
+    box-sizing: border-box;
+    display: flex;
+    
+    justify-content: center;
+
+    margin: auto;
+}
+    /* photo cover */
+.mainImgWrap {
+    width: 30%;
+    padding-right: 10%;
+}
+.mainImg {
+    width: 100%;
+    border-radius: 25px;
+}
+
+/* -------------------------------------------------- */
+
+/* main body */
+.mainContentSection {
+    background-color: #FBF7F4;
+    padding: 60px;
+}
+
+/* CAN CHANGE */
+.youtubeVideo {
+    width: 50%;
+    margin: auto;
+}
+.youtubeVideoLink {
+    margin-top: 10px;
+    text-align: center;
+}
+.link {
+    color: #6C9A8B;
+    font-size: 25px;
+}
+.link:hover {
+    color: #EED2CC;
+}
+
+/* -------------------------------------------------- */
+
+/* finale */
+.finalSectionWrapper {
+    background-color: #EED2CC;
+    padding: 70px;
+}
+
+.finale {
+    background-color: #FBF7F4;
+    padding: 50px;
+    margin: auto;
+    justify-content: center;
+    width: 70%;
+    border-radius: 25px;
+}
+.toast {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.resources {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
