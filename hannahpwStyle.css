@@ -1,0 +1,116 @@
+/* importing all the fonts */
+@font-face {
+    font-family: 'BobbyJonesSoft';
+    src: url("bjSoft.otf");
+}
+@font-face {
+    font-family: 'BobbyJonesOutline';
+    src: url("bjSoftOutline.otf");
+}
+
+
+/* dancing animated gif */
+.titleHeader {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0px;
+}
+
+.backgroundVideo {
+    width: 100%;
+}
+
+
+/* navigation area */
+.pinkSectionHome {
+    background-color: #EED2CC;
+    text-align: center;
+
+    padding-top: 80px;
+    padding-bottom: 60px;
+    font-family: "BobbyJonesSoft";
+
+}
+/* aligning the buttons to be next to each other */
+.navigationSection {
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* actual buttons to the other pages */
+.navigation {
+    text-decoration: none;
+
+    position: relative;
+
+    color: #A1683A;
+    background-color: #FBF7F4; 
+    text-align: center;
+
+    font-size: 25px;
+
+    padding-left: 60px;
+    padding-right: 60px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-radius: 25px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navigation:visited {
+    text-decoration: none;
+    color: #A1683A;
+}
+.navigation:hover {
+    text-decoration: none;
+    color: #E8998D;
+    cursor: url('buldak.png'), auto;
+}
+
+/* photos */
+.photos {
+    display: flex;
+    
+    width: 70%;
+
+    margin: auto;
+    text-align: center;
+
+    padding-top: 40px;
+}
+.photo {
+    flex: 50%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.photoimg {
+    width: 100%;
+    margin: auto;
+    transition: border-radius 0.5s;
+}
+.photoimg:hover {
+    border-radius: 25px;
+}
+
+
+
+/* photo description */
+.photosDescription {
+    color: #6C9A8B; 
+    font-size: 20px;
+}
+

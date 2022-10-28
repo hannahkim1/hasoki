@@ -1,0 +1,168 @@
+/* importing all the fonts */
+@font-face {
+    font-family: 'BobbyJonesSoft';
+    src: url("bjSoft.otf");
+}
+@font-face {
+    font-family: 'BobbyJonesOutline';
+    src: url("bjSoftOutline.otf");
+}
+
+
+.all {
+    font-family: "BobbyJonesSoft";
+}
+
+.background {
+    background-color: #EED2CC;
+    padding: 30px;
+}
+.backButton {
+    background-color: #E8998D;
+    text-align: center;
+    font-family: "BobbyJonesSoft";
+    
+    font-size: 15px;
+
+    width: 10%;
+    padding: 5px;
+
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.introductionSection {
+    background-color: #EED2CC;
+    padding: 40px;
+
+    box-sizing: border-box;
+    display: flex;
+    
+    justify-content: center;
+
+    margin: auto;
+}
+
+.bossaNovaImgWrap {
+    width: 30%;
+    padding-right: 10%;
+}
+.bossaNovaImg {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.midSection {
+    background-color: #FBF7F4;
+    padding: 60px;
+}
+.flexmid1 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+    width: 70%;
+}
+.flexmid2 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.flexImgWrap {
+    flex: 50%;
+    margin: 20px;
+    width: 50%;
+}
+
+
+.flexImgWrap2 {
+    flex: 30%;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.flexTextWrap {
+    color: #E8998D;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.flexTextWrap2 {
+    color: #E8998D;
+    font-size: 20px;
+    margin: 20px;
+    margin-right: 50px;
+    width: 100%;
+    flex: 33%;
+    text-align: center;
+}
+
+.flexImg {
+    flex: 50%;
+}
+.flexImg2 {
+    width: 60%;
+}
+
+.midSection2 {
+    background-color: #EED2CC;
+    padding: 70px;
+}
+
+.websiteEmbed {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex: 50%;
+}
+
+.websiteEmbed1 {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+/* finale */
+.finale {
+    background-color: #FBF7F4;
+    padding: 50px;
+    margin: auto;
+    justify-content: center;
+    width: 70%;
+    border-radius: 25px;
+}
+.toast {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.resources {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.link {
+    text-align: center;
+    margin: auto;
+    color: #6C9A8B;
+    font-size: 30px;
+}
+.link:hover {
+    color: #EED2CC;
+}

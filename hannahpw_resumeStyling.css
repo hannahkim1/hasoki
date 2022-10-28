@@ -1,0 +1,43 @@
+.mainBody {
+    background-color: #EED2CC;
+
+    padding-top: 50px;
+    padding-bottom: 140px;
+}
+
+.cvStyling {
+    display: flex;
+}
+.cvStyling:hover {
+    cursor: url('buldak.png'), auto;
+}
+.cvDoc {
+    background-color: #EED2CC;
+    flex: 100%;
+
+    margin-left: 80px;
+    margin-right: 80px;
+
+    background-color: #FBF7F4;
+    padding: 40px;
+    
+    text-decoration: none;
+
+    border-radius: 50px;
+}
+.cvDoc:hover {
+    cursor: url('buldak.png'), auto;
+}
+
+@font-face {
+    font-family: 'BobbyJonesSoft';
+    src: url("bjSoft.otf");
+}
+
+h3 {
+    font-family: "BobbyJonesSoft";
+    text-align: center;
+    color: #A1683A;
+
+    font-size: 40px;
+}
