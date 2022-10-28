@@ -81,6 +81,39 @@
     color: #EED2CC;
 }
 
+.blankSpace {
+    height: 3vw;
+}
+
+
+/* research body part */
+.research {
+    font-size: 22px;
+    color: #E8998D;
+
+    margin: auto;
+    text-align: center;
+}
+
+.miniTitles {
+    font-size: 30px;
+    color: #6C9A8B;
+}
+.acpNotes {
+    width: 50%;
+    flex: 50%;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.coreTextWrapper {
+    display: flex;
+    flex: auto;
+    width: 80%;
+    margin: auto;
+}
+
+
 /* -------------------------------------------------- */
 
 /* finale */
