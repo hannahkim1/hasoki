@@ -81,5 +81,9 @@ li {
     font-size: 60%;
     padding-left: 20px;
     text-align: center;
+    transition: text-shadow 0.5s;
+}
+li:hover {
+    text-shadow: 0px 2px 5px #b8d3cb;
 }
 
