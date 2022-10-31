@@ -50,6 +50,8 @@
 .githubLink {
     color: #6C9A8B; 
     font-size: 25px;
+
+    transition: color 0.3s;
 }
 .githubLink:hover {
     color: #FBF7F4;
@@ -85,6 +87,9 @@
     padding: 30px;
     text-decoration: none;
     color: #A1683A;
+
+    transition: text-shadow 0.9s;
+    transition: font-size 0.9s;
 }
 .navigation:visited {
     text-decoration: none;
@@ -92,7 +97,9 @@
 }
 .navigation:hover {
     text-decoration: none;
-    color: #FBF7F4;
+
+    font-size: 23px;
+    text-shadow: 8px 5px 10px white;
 }
 
 .passionProjects {
@@ -118,10 +125,15 @@
     margin: auto;
     margin-left: 30px;
     margin-right: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 
     border-radius: 50px;
 
+    transition: box-shadow 0.5s;
+
+}
+.catalog:hover {
+    box-shadow: 0px 0px 10px 5px #c8897d;
 }
 
 .projectTitle {
@@ -131,24 +143,6 @@
 .text {
     color: #FBF7F4;
     font-size: 20px;
-}
-
-/* edited videos */
-.editedVideos {
-    margin-top: 120px;
-}
-
-
-.vidsExample1 {
-    width: 50%;
-    margin: auto;
-    border-radius: 50px;
-    margin-bottom: 30px;
-
-    text-align: center;
-    color: #E8998D;
-    font-size: 20px;
-    font-family: "BobbyJonesSoft";
 }
 
 
@@ -199,6 +193,11 @@
     border-radius: 50px;
 
     margin-bottom: 50px;
+
+    transition: box-shadow 0.5s;
+}
+.groupCatalog:hover {
+    box-shadow: 0px 0px 10px 5px #c8897d;
 }
 
 .groupImage {
