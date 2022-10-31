@@ -15,10 +15,11 @@
     width: 10%;
     padding: 5px;
     margin-bottom: 30px;
-    transition: border-radius 0.5s;
+    transition: border-radius 1s, box-shadow 0.7s;
 }
 .backButton:hover {
     border-radius: 25px 25px 0px 0px;
+    box-shadow: -3px 6px 5px #91807c;
 }
 
 .title {
@@ -35,50 +36,28 @@
     border: 4px solid #E8998D;
 }
 
-.nameTitles {
-    text-align: center;
-    color: #A1683A;
-    font-size: 28px;
-    font-family: "BobbyJonesSoft";
-}
 
+/* pictures */
 .group {
     display: flex;
-    margin: auto;
-    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.hannah {
+    width: 30vw;
+    margin-top: 8vw;
 }
 
-.section {
-    background-color: #FBF7F4;
-    padding: 30px;
-    flex: 25%;
-    border-radius: 25px;
-    margin: 1%;
-    color: #6C9A8B;
-    font-size: 20px;
+.sofia {
+    width: 30vw;
+    margin-top: 2vw;
+}
+.kim {
+    width: 30vw;
+    margin-top: 6vw;
 }
 
 .korea {
-    background-color: #FBF7F4;
-    padding: 30px;
-    border-radius: 25px;
-    width: 60%;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    color: #6C9A8B;
-    font-size: 20px;
-}
-
-.finale {
-    border: 5px solid #FBF7F4;
-    padding: 40px;
-    color: #E8998D;
-    border-radius: 25px;
-    font-size: 25px;
-    font-family: "BobbyJonesSoft";
-    width: 60%;
-    margin: auto;
-    margin-bottom: 40px;
-    text-align: center;
+    width: 50vw;
 }
