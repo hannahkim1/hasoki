@@ -8,6 +8,10 @@
     src: url("bjSoftOutline.otf");
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .all {
     background-color: #EED2CC;
     padding: 40px;
@@ -129,6 +133,7 @@
 
     border-radius: 50px;
 
+    box-shadow: 0px 0px 5px 2px #c29c94;
     transition: box-shadow 0.5s;
 
 }
@@ -195,6 +200,7 @@
     margin-bottom: 50px;
 
     transition: box-shadow 0.5s;
+    box-shadow: 0px 0px 5px 2px #c29c94;
 }
 .groupCatalog:hover {
     box-shadow: 0px 0px 10px 5px #c8897d;
